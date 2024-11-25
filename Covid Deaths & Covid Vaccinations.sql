@@ -1,4 +1,4 @@
-								-- Exploring Covid Deaths and Covid Vaccinations around the world From 2020-01-05 till 2024-08-04
+-- Exploring Covid Deaths and Covid Vaccinations around the world From 2020-01-05 till 2024-08-04
 
 SELECT*
 FROM PortfolioProject..CovidDeaths
