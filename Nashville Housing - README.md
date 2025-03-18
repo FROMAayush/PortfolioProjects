@@ -1,5 +1,5 @@
-**Summary of Work
-Nashville Housing: Data Cleaning and Transformation in SQL**
+**Summary of Work: 
+Nashville Housing - Data Cleaning and Transformation in SQL**
 This project involved a comprehensive cleanup and transformation of the Nashville Housing Dataset to ensure consistent data formatting, improved usability, and better analytical capabilities. 
 Below is an outline of the steps performed and their purpose:
 
