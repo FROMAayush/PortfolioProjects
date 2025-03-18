@@ -1,5 +1,6 @@
 Crypto Market Data API Project
-This project is a Python-based tool that extracts real-time and historical cryptocurrency data using the CoinMarketCap API. It efficiently gathers key market insights, including price trends, percentage changes, and timestamps, enabling users to analyze crypto market fluctuations over different timeframes.
+This project is a Python-based tool that extracts real-time and historical cryptocurrency data using the CoinMarketCap API. 
+It efficiently gathers key market insights, including price trends, percentage changes, and timestamps, enabling users to analyze crypto market fluctuations over different timeframes.
 
 🔹 Key Features:
 ✔ Real-Time Data Extraction – Fetches live crypto prices and percentage changes at customizable intervals.
