@@ -1,4 +1,5 @@
-**Summary of Work: Data Cleaning and Transformation in SQL**
+**Summary of Work
+Nashville Housing: Data Cleaning and Transformation in SQL**
 This project involved a comprehensive cleanup and transformation of the Nashville Housing Dataset to ensure consistent data formatting, improved usability, and better analytical capabilities. 
 Below is an outline of the steps performed and their purpose:
 
@@ -45,7 +46,7 @@ The dataset is now:
 - More granular, with individual columns for address components (PropertySplitAddress, OwnerSplitCity, etc.).
 - Devoid of duplicate records, ensuring unique and accurate entries.
 - Optimized for analysis and reporting, with unnecessary columns removed.
-- 
+  
 **Next Steps**
 Perform data visualization or analysis on the cleaned dataset.
 Document any additional data transformation requirements identified during analysis.
