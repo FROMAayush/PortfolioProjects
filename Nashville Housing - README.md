@@ -9,26 +9,31 @@ Actions:
 - Used the CONVERT function to format dates in the SaleDate column to DATE.
 - Created a new column, SaleDateConverted, for the formatted date values.
 - Populated the new column using an UPDATE statement to preserve data integrity.
+  
 **2. Populating Missing Property Address Data**
 Objective: Fill null values in the PropertyAddress field.
 Actions:
 - Identified missing PropertyAddress values.
 - Used a self-join on the dataset based on ParcelID to pull corresponding non-null addresses from other rows.
 - Updated null values with the corresponding address using the ISNULL function and an UPDATE query.
+
 **3. Splitting Address Fields**
 Objective: Break down complex address fields into more granular columns for better usability.
 Actions:
 - Split PropertyAddress into PropertySplitAddress and PropertySplitCity using the SUBSTRING and CHARINDEX functions.
 - Applied the PARSENAME function to split OwnerAddress into OwnerSplitAddress, OwnerSplitCity, and OwnerSplitState.
+
 **4. Standardizing Boolean Values**
 Objective: Enhance readability of the SoldAsVacant column, which had values as Y and N.
 Actions:
 - Updated the column to store Yes and No instead of Y and N using a CASE statement.
+  
 **5. Removing Duplicate Records**
 Objective: Eliminate redundant rows to ensure data accuracy.
 Actions:
 - Identified duplicate rows by using the ROW_NUMBER function with a PARTITION BY clause on key columns (ParcelID, LandUse, etc.).
 - Used a Common Table Expression (CTE) to filter out and delete rows where the row number was greater than 1.
+  
 **6. Dropping Unnecessary Columns**
 Objective: Remove redundant columns to streamline the dataset.
 Actions:
